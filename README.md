@@ -40,7 +40,7 @@ $ pip install .
 $ pip install scHiCPTR
 ```
 
-**2.5 run example**
+**2.5 Run example**
 
 ```
 $ cd scHiCPTR/examples
