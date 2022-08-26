@@ -1,0 +1,17 @@
+numpy==1.18.0 
+tables==3.6.1
+pandas 
+anndata==0.7.4 
+networkx==2.5 
+matplotlib>=3.3.2 
+seaborn 
+umap-learn==0.5.1 
+legacy-api-wrap 
+scanpy==1.6.0
+multiprocess 
+igraph 
+python-louvain 
+munkres 
+louvain==0.7.0
+fa2==0.3.5
+
