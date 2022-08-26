@@ -17,10 +17,10 @@ from scHiCPTR import scHiCPTR, eva, vis
 
 #     ## 2. Imputation and embedding args for the small dataset
 #     imp_args = None # e.g. default
-#     emb_args = {"pca_ncomponent":50, "umap_neighbour":15, "umap_mindist":0.5, "umap_ncomponent":5, "umap_metric":"euclidean"}
+#     emb_args = {"pca_ncomponent":30, "umap_neighbour":15, "umap_mindist":0.5, "umap_ncomponent":5, "umap_metric":"euclidean"}
 
 #     ## 3. KNN args
-#     knn_args = {"n_neighbors": 20, "metric":'euclidean'}
+#     knn_args = {"n_neighbors": 10, "metric":'euclidean'}
 
 #     ## 4. Pruning args
 #     prune_args = {"lambda_": 0.5, "threshold": 0.7, "louvain_res": 0.5}
