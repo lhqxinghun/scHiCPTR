@@ -18,8 +18,10 @@ from scHiCPTR import scHiCPTR, eva, vis
 #     ## 2. Imputation and embedding args for the small dataset
 #     imp_args = None # e.g. default
 #     emb_args = {"pca_ncomponent":50, "umap_neighbour":15, "umap_mindist":0.5, "umap_ncomponent":5, "umap_metric":"euclidean"}
+
 #     ## 3. KNN args
 #     knn_args = {"n_neighbors": 20, "metric":'euclidean'}
+
 #     ## 4. Pruning args
 #     prune_args = {"lambda_": 0.5, "threshold": 0.7, "louvain_res": 0.5}
 
@@ -28,8 +30,6 @@ from scHiCPTR import scHiCPTR, eva, vis
 #                                     emb_args=emb_args, embedding=None, knn_args=knn_args, prune_args=prune_args, start=0)
 #     result = trajectory._trajectory 
 #     result.to_csv('../data/results/pseudotime_test.csv')
-
-
 
 
 ###### example code for taking embedding vectors as input #######
