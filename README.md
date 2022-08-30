@@ -67,7 +67,7 @@ $ python cellcycle.py
      
     *"PCA"*: using PCA only to reduce dimension
      
-    *"PPCA"* : replacing the imputation PCA with probabilistic PCA. (imp_method should be set to None)
+    *"PPCA"* : replacing the imputation and embedding with probabilistic PCA. (imp_method should be set to None)
 
 - **emb_args**:   dict, the parameters for embedding, including
                 pca_ncomponent (int),
