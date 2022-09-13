@@ -104,3 +104,6 @@ For this case, just set the **emb_method** to "PCA", and adjust the "pca_compone
 
 #### Using probabilistic PCA for preprocessing
 Since probabilistic PCA has an ability to handle missing values, users can replace the imputation and pre-dimensionalization step with it. This can be down by setting the **imp_method** to None and **emb_method** to "PPCA", and specifying the "ppca_sigma" in **emb_args**
+
+## 4. Contact
+hongqianglv@mail.xjtu.edu.cn or liuerhu@stu.xjtu.edu.cn
